@@ -16,7 +16,7 @@ void day1_part1()
         return;
     }
 
-    while((dir = fgetc(fp)) != EOF)
+    while ((dir = fgetc(fp)) != EOF)
     {
         num = atoi(fgets(buffer, 10, fp));
 
@@ -54,7 +54,7 @@ void day1_part2()
         return;
     }
 
-    while((dir = fgetc(fp)) != EOF)
+    while ((dir = fgetc(fp)) != EOF)
     {
         num = atoi(fgets(buffer, 10, fp));
 
